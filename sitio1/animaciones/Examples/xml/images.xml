@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery xmlns:media="http://search.yahoo.com/mrss/">
+	<!--
+	
+		GENERAL INFO
+		Valid media types, for the type attribute on media:content nodes are:
+			application/x-shockwave-flash
+			video/x-flv
+			image/jpeg
+			image/png
+			image/gif
+		
+		YOU TUBE
+		To include a YouTube video, simply paste in the url that you see when you navigate to that page on youtube.com, i.e.
+			http://www.youtube.com/watch?v=VIDEO_ID
+		
+		You can specify your own thumbnail for youtube videos, if no thumbnail is specified the youtube generated thumbnail will be downloaded.
+		
+		TOOLTIPS
+		To add a tooltip to the thumbnail, use the following node inside the <item></item> tag:
+			<media:text>My tooltip text</media:text>
+			
+		The dimensions and look of the tooltip can be changed in the fla file.
+		
+	-->
+	<settings>
+		<mediaFolder type="large" media="video">video/</mediaFolder>
+		<mediaFolder type="thumbnail" media="video">video/thumbs/</mediaFolder>
+		<mediaFolder type="large" media="swf">video/</mediaFolder>
+		<mediaFolder type="thumbnail" media="swf">video/thumbs/</mediaFolder>
+		<mediaFolder type="large" media="image">wallimages/</mediaFolder>
+		<mediaFolder type="thumbnail" media="image">wallimages/thumbs/</mediaFolder>
+	</settings>	
+	<item>
+		<media:text>Tooltip 1</media:text>
+
+		<media:content url="1.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+	<media:text>Tooltip 2</media:text>
+		<media:content url="2.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+		<media:text>Tooltip 3</media:text>
+		
+		<media:content url="3.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+	<media:text>Tooltip 4</media:text>
+		<media:content url="4.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+		<media:text>Tooltip 5</media:text>
+
+		<media:content url="5.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+	<media:text>Tooltip 6</media:text>
+		<media:content url="6.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+		<media:text>Tooltip 7</media:text>
+
+		<media:content url="7.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+	<media:text>Tooltip 8</media:text>
+		<media:content url="8.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+		<media:text>Tooltip 9</media:text>
+
+		<media:content url="9.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+	<media:text>Tooltip 10</media:text>
+		<media:content url="10.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+		<media:text>Tooltip 11</media:text>
+
+		<media:content url="11.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+	<media:text>Tooltip 12</media:text>
+		<media:content url="12.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+		<media:text>Tooltip 13</media:text>
+		
+		<media:content url="13.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+	<media:text>Tooltip 14</media:text>
+		<media:content url="14.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+		<media:text>Tooltip 15</media:text>
+
+		<media:content url="15.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+	<media:text>Tooltip 16</media:text>
+		<media:content url="16.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+		<media:text>Tooltip 17</media:text>
+
+		<media:content url="17.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+	<media:text>Tooltip 18</media:text>
+		<media:content url="18.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+		<media:text>Tooltip 19</media:text>
+
+		<media:content url="19.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+	<media:text>Tooltip 20</media:text>
+		<media:content url="20.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+		<media:text>Tooltip 21</media:text>
+
+		<media:content url="21.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+	<media:text>Tooltip 22</media:text>
+		<media:content url="22.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+		<media:text>Tooltip 23</media:text>
+
+		<media:content url="23.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+	<media:text>Tooltip 24</media:text>
+		<media:content url="24.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+		<media:text>Tooltip 25</media:text>
+
+		<media:content url="25.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+	<media:text>Tooltip 26</media:text>
+		<media:content url="26.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+		<media:text>Tooltip 27</media:text>
+
+		<media:content url="27.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+	<media:text>Tooltip 28</media:text>
+		<media:content url="28.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+		<media:text>Tooltip 29</media:text>
+
+		<media:content url="29.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+	<media:text>Tooltip 30</media:text>
+		<media:content url="30.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+	<item>
+	<media:text>Tooltip 31</media:text>
+		<media:content url="31.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+	<item>
+	<media:text>Tooltip 32</media:text>
+		<media:content url="32.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+	<item>
+	<media:text>Tooltip 33</media:text>
+		<media:content url="33.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+	<item>
+	<media:text>Tooltip 34</media:text>
+		<media:content url="34.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+	<item>
+	<media:text>Tooltip 35</media:text>
+		<media:content url="35.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+	<item>
+	<media:text>Tooltip 36</media:text>
+		<media:content url="36.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+	<item>
+	<media:text>Tooltip 37</media:text>
+		<media:content url="37.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+	<item>
+	<media:text>Tooltip 38</media:text>
+		<media:content url="38.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+	<item>
+	<media:text>Tooltip 39</media:text>
+		<media:content url="39.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+	<item>
+	<media:text>Tooltip 40</media:text>
+		<media:content url="40.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+
+	<item>
+	<media:text>Tooltip 41</media:text>
+		<media:content url="41.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+
+	<item>
+	<media:text>Tooltip 42</media:text>
+		<media:content url="42.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+	
+	<item>
+	<media:text>Tooltip 51</media:text>
+		<media:content url="51.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+
+	<item>
+	<media:text>Tooltip 52</media:text>
+		<media:content url="52.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+
+	<item>
+	<media:text>Tooltip 53</media:text>
+		<media:content url="53.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+
+	<item>
+	<media:text>Tooltip 54</media:text>
+		<media:content url="54.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+
+	<item>
+	<media:text>Tooltip 55</media:text>
+		<media:content url="55.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+
+	<item>
+	<media:text>Tooltip 56</media:text>
+		<media:content url="56.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+
+	<item>
+	<media:text>Tooltip 57</media:text>
+		<media:content url="57.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+
+	<item>
+	<media:text>Tooltip 58</media:text>
+		<media:content url="58.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+
+	<item>
+	<media:text>Tooltip 59</media:text>
+		<media:content url="59.jpg" type="image/jpeg" width="500" height="375" />
+	</item>
+
+
+</gallery>

@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: bold 20px/1.5em Verdana;
+	}
+
+#tabs {
+	text-align:center;
+	float:center;
+	width:100%;
+	font-size:93%;
+	line-height:normal;
+	margin-top: 1em;
+	padding-top: .6em;
+	}
+
+#tabs ul {
+	padding: 5px 0;
+	text-align: center;
+	}
+
+#tabs ul li {
+	display:inline;
+	margin: 2em;
+	}
+
+#tabs ul li a span {
+	padding:5px 1em;
+	color:#FFF;
+	}
+
+#tabs a span {float:none;}
+
+#tabs ul li a:hover {
+background: #39524F ;
+	text-align:center;
+	background-position:0% -42px;
+	}
+
+#tabs a:hover span {
+background: #39524F ;
+	text-align:center;
+	background-position:100% -42px;
+	}
+	
+	
+	
+	/*MENU VERTICAL CATEGORIAS*/
+	
+	#cssmenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 12em;
+}
+#cssmenu li {
+  font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#cssmenu a {
+  border-bottom: 1px solid #393939;
+  display: block;
+  margin: 0;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: normal;
+}
+#cssmenu a:hover {
+ background: #39524F ;
+  color: #fff;
+  padding-bottom: 8px;
+}
+	
